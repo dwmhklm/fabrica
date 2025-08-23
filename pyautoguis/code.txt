@@ -1,0 +1,16 @@
+import pyautogui as pg
+
+pg.hotkey('ctrl', 'alt', 'win', 'n')
+pg.typewrite('codigo3.py')
+pg.press('return')
+pg.press('return')
+
+code = open('code.txt', 'r')
+
+leia = code.read()
+pg.sleep(1)
+
+pg.typewrite(leia, interval=0.01)
+pg.sleep(0.5)
+pg.leftClick()
+code.close()
