@@ -1,0 +1,117 @@
+@font-face { font-family: Inter; src: url(Inter.ttf); }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Inter;
+    /* background-color: rgb(130, 165, 199); */
+    background-image: url(background.png);
+    color: #f1eeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container{
+
+    /* .form-group{ visibility: hidden} */
+
+    /* filter: blur(0.95px); */
+    border-radius: 8px;
+    padding: 100px;
+    max-width: 100%;
+    width: 600px;
+    text-align: center;
+    background: rgba(51, 51, 51, 0.22745098039215686);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.9px); 
+}
+
+.container:hover{
+    
+    /* .form-group{ visibility: visible} */
+
+    
+    filter: blur(0px);
+    backdrop-filter: blur(2.7px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.442);
+    background-color: #3333333a;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #3333331d;
+    border-radius: 6px;
+    background-size: cover;
+    display: inline-block;
+    padding: 2px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 0px solid rgb(44, 44, 52);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus{
+    border-color: #393737e1;
+    outline: none;
+}
+
+button{
+    background-color: #717eb872;
+    color: #f1eeee;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8694d172;
+}
+
+button:focus{
+    color: antiquewhite;
+    background-color: rgba(114, 128, 191, 0.592);
+}
+
+h1{
+    font-size: 24px;
+    color: #ece4e4;
+    margin-bottom: 20px;
+    background-color: #3333331b;
+    border-radius: 6px;
+    background-size: cover;
+    display: inline-block;
+    padding: 2px;
+}
+
