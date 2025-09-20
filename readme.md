@@ -1,1 +1,1 @@
-![oi](https://avatars.githubusercontent.com/u/85801912?v=4)
+![oi](https://lh3.googleusercontent.com/a/ACg8ocIecKF_i561O4TyJm87zNYbAIhbsDIRQRIFzxKCerFrpk15CBTX=s288-c-no)
