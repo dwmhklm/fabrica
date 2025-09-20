@@ -1,0 +1,144 @@
+@font-face { font-family: Inter; src: url(fonts/Inter.ttf); }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Inter;
+
+    background-image: url(img/bliss.jpg);
+    background-size: cover;
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat;
+    
+
+    color: #f1eeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.749);
+    
+}
+
+.container {
+    border-radius: 16px;
+    padding: 100px;
+    max-width: 100%;
+    width: 600px;
+    text-align: center;
+    background: rgba(51, 51, 51, 0.227);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2.9px); 
+    transition: backdrop-filter 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.container:hover {
+    backdrop-filter: blur(5.7px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.442);
+    background-color: #3333333a;
+}
+
+
+.form-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+h1{
+    font-size: 24px;
+    color: #ece4e4;
+    margin-bottom: 20px;
+    /* background-color: #3333331b; */
+    border-radius: 6px;
+    background-size: cover;
+    display: inline-block;
+    padding: 2px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.749);
+}
+
+label{
+    max-width: 100%;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    /* background-color: #3333331d; */
+    border-radius: 6px;
+    padding: 2px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.381);
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-radius: 5px white;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 1px; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 0px solid rgb(44, 44, 52);
+    border-radius: 4px;
+    background-color: rgba(117, 116, 116, 0.155);
+    color: white;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus{
+    border-color: #393737e1;
+    outline: none;
+}
+
+
+button{
+    background-color: rgba(219, 217, 217, 0.447);
+    color: #f1eeee;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(219, 217, 217, 0.596);
+    
+}
+
+button:focus{
+    color: antiquewhite;
+    background-color: rgba(219, 217, 217, 0.236);
+}
+
+
+
