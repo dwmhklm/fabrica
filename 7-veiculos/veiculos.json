@@ -1,0 +1,142 @@
+[
+  {
+    "CODIGO": "001",
+    "MONTADORA": "Volkswagen",
+    "MODELO": "Fusca",
+    "ANO": "1980",
+    "VALOR": "25000"
+  },
+  {
+    "CODIGO": "002",
+    "MONTADORA": "Chevrolet",
+    "MODELO": "Opala",
+    "ANO": "1985",
+    "VALOR": "40000"
+  },
+  {
+    "CODIGO": "003",
+    "MONTADORA": "Ford",
+    "MODELO": "Corcel II",
+    "ANO": "1982",
+    "VALOR": "18000"
+  },
+  {
+    "CODIGO": "004",
+    "MONTADORA": "Fiat",
+    "MODELO": "500 (Cinquecento)",
+    "ANO": "1980",
+    "VALOR": "30000"
+  },
+  {
+    "CODIGO": "005",
+    "MONTADORA": "Toyota",
+    "MODELO": "Land Cruiser (70)",
+    "ANO": "1989",
+    "VALOR": "95000"
+  },
+  {
+    "CODIGO": "006",
+    "MONTADORA": "Volkswagen",
+    "MODELO": "Gol GTI",
+    "ANO": "1993",
+    "VALOR": "32000"
+  },
+  {
+    "CODIGO": "007",
+    "MONTADORA": "Chevrolet",
+    "MODELO": "Monza",
+    "ANO": "1991",
+    "VALOR": "25000"
+  },
+  {
+    "CODIGO": "008",
+    "MONTADORA": "Ford",
+    "MODELO": "EcoSport (1ª geração)",
+    "ANO": "2003",
+    "VALOR": "38000"
+  },
+  {
+    "CODIGO": "009",
+    "MONTADORA": "Toyota",
+    "MODELO": "Corolla",
+    "ANO": "2004",
+    "VALOR": "60000"
+  },
+  {
+    "CODIGO": "010",
+    "MONTADORA": "Volkswagen",
+    "MODELO": "Beetle (New Beetle)",
+    "ANO": "2000",
+    "VALOR": "42000"
+  },
+  {
+    "CODIGO": "011",
+    "MONTADORA": "Fiat",
+    "MODELO": "Uno Mille",
+    "ANO": "1996",
+    "VALOR": "20000"
+  },
+  {
+    "CODIGO": "012",
+    "MONTADORA": "Chevrolet",
+    "MODELO": "Chevette",
+    "ANO": "1980",
+    "VALOR": "22000"
+  },
+  {
+    "CODIGO": "013",
+    "MONTADORA": "Ford",
+    "MODELO": "Fiesta",
+    "ANO": "1999",
+    "VALOR": "25000"
+  },
+  {
+    "CODIGO": "014",
+    "MONTADORA": "Volkswagen",
+    "MODELO": "Polo",
+    "ANO": "2005",
+    "VALOR": "55000"
+  },
+  {
+    "CODIGO": "015",
+    "MONTADORA": "Fiat",
+    "MODELO": "Palio",
+    "ANO": "2001",
+    "VALOR": "28000"
+  },
+  {
+    "CODIGO": "016",
+    "MONTADORA": "Chevrolet",
+    "MODELO": "Celta",
+    "ANO": "2004",
+    "VALOR": "30000"
+  },
+  {
+    "CODIGO": "017",
+    "MONTADORA": "Toyota",
+    "MODELO": "Hilux (cabine simples)",
+    "ANO": "1998",
+    "VALOR": "85000"
+  },
+  {
+    "CODIGO": "018",
+    "MONTADORA": "Volkswagen",
+    "MODELO": "Parati",
+    "ANO": "1997",
+    "VALOR": "32000"
+  },
+  {
+    "CODIGO": "019",
+    "MONTADORA": "Ford",
+    "MODELO": "Ka",
+    "ANO": "2002",
+    "VALOR": "27000"
+  },
+  {
+    "CODIGO": "020",
+    "MONTADORA": "Fiat",
+    "MODELO": "Siena",
+    "ANO": "2006",
+    "VALOR": "32000"
+  }
+]

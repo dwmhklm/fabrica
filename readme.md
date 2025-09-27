@@ -1,1 +1,0 @@
-![oi](https://lh3.googleusercontent.com/a/ACg8ocIecKF_i561O4TyJm87zNYbAIhbsDIRQRIFzxKCerFrpk15CBTX=s288-c-no)
