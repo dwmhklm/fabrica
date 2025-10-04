@@ -1,5 +1,4 @@
-@font-face { font-family: Inter; src: url(../fonts/Inter.ttf); }
-
+@font-face { font-family: font; src: url(../fonts/Inter.ttf); }
 
 *{
     margin: 0;
@@ -39,7 +38,7 @@ a:active {
 }
 
 body{
-    font-family: Inter;
+    font-family: font;
 
     background-image: url(../img/bliss.jpg);
     background-size: cover;
@@ -169,6 +168,3 @@ button:focus{
     color: antiquewhite;
     background-color: rgba(219, 217, 217, 0.236);
 }
-
-
-
